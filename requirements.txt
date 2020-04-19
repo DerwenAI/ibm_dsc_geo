@@ -1,0 +1,7 @@
+Cython >= 0.29.16
+descartes >= 1.1.0
+geopandas >= 0.7.0
+geoplot >= 0.4.0
+jupyter >= 1.0.0
+jupyterlab >= 2.1.0
+matplotlib >= 3.2.1
