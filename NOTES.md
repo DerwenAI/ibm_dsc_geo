@@ -12,6 +12,9 @@ pip install -r requirements.txt
 
 pip install shapely --no-binary shapely 
 pip install git+https://github.com/SciTools/cartopy.git --no-binary cartopy
+
+pip install geopandas
+pip install geoplot
 ```
 
 ```
