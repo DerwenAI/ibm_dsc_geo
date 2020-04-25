@@ -31,15 +31,17 @@ pushd maps
 unzip ../cb_2018_us_state_20m.zip
 popd
 
-# also,
-# https://medium.com/@erikgreenj/mapping-us-states-with-geopandas-made-simple-d7b6e66fa20d
-# http://patrickgray.me/open-geo-tutorial/chapter_4_vector.html
-
 wget http://www2.census.gov/programs-surveys/popest/datasets/2010-2018/national/totals/nst-est2018-alldata.csv
-mkdir data
 mv nst-est2018-alldata.csv data
 ```
 
 ```
 jupyter lab --no-browser --port=8888 --ip=0.0.0.0
+```
+
+
+```
+wget https://ihmecovid19storage.blob.core.windows.net/latest/ihme-covid19.zip
+unzip ihme-covid19.zip 
+mv 2020_04_21.01/Hospitalization_all_locs.csv data
 ```
