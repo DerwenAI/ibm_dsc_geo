@@ -43,5 +43,5 @@ jupyter lab --no-browser --port=8888 --ip=0.0.0.0
 ```
 wget https://ihmecovid19storage.blob.core.windows.net/latest/ihme-covid19.zip
 unzip ihme-covid19.zip 
-mv 2020_04_21.01/Hospitalization_all_locs.csv data
+mv 2020_*/Hospitalization_all_locs.csv data
 ```
